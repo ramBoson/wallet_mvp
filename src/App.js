@@ -106,7 +106,7 @@ const App = () => {
     <div>
       <br />
       <br />
-      <center><Header as="h1" dividing>Send Algos from Account 1 to Receiver</Header></center> <br/><br />
+      <center><Header as="h1" dividing>CIFI Asset Transfer</Header></center> <br/><br />
   <center>  <label>Receiver Address : </label> <input
 id="addressid"
   type='text'
@@ -118,10 +118,10 @@ id="addressid"
 />
 <br />
 <br />
-<label> microAlgos : </label> <input
+<label> Algos : </label> <input
 id="addressid"
   type='text'
-  placeholder='Enter Algos in microAlgos'
+  placeholder='Enter Algos'
   name="toaddress"
   required
   onChange={event => setToalgos( event.target.value)}
