@@ -2,7 +2,7 @@
 import './App.css';
 import {Header} from "semantic-ui-react";
 import {useState} from "react";
-
+// import cifi from "../public/cifi.jfif"
 
 
 let signedTxs = null;
@@ -104,8 +104,10 @@ const App = () => {
    console.log(algos);
   return (
     <div>
+      <img src = "cifi.png" height = "70 px" width = "70 px" alt = "logo" />
       <br />
       <br />
+      
       <center><Header as="h1" dividing>CIFI Asset Transfer</Header></center> <br/><br />
   <center>  <label>Receiver Address : </label> <input
 id="addressid"
